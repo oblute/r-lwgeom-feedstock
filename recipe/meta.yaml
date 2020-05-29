@@ -13,7 +13,7 @@ source:
     - {{ cran_mirror }}/src/contrib/Archive/lwgeom/lwgeom_{{ version }}.tar.gz
   sha256: 81dff3f4bf132259b82d7d253ce2d5b484a3538f74aa15ae624482563f777f16
   patches:
-    - liblwgeomh_define.patch
+    - liblwgeomh_define.patch  # [not win]
 
 build:
   merge_build_host: True  # [win]
@@ -43,14 +43,14 @@ requirements:
   host:
     - r-base
     - r-rcpp
-    - r-sf >=0.9_3
+    - r-sf >=0.9_0
     - r-units
 
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-rcpp
-    - r-sf >=0.9_3
+    - r-sf >=0.9_0
     - r-units
 
 test:
