@@ -37,6 +37,7 @@ requirements:
     - {{ posix }}make
     - {{ posix }}coreutils         # [win]
     - {{ posix }}zip               # [win]
+    - {{ posix }}geos
 
   host:
     - r-base
