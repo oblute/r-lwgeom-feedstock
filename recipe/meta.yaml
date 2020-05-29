@@ -41,15 +41,19 @@ requirements:
   host:
     - r-base
     - r-rcpp
-    - r-sf ==0.9_3
+    - r-sf >=0.9_3
     - r-units
+    - r-rgeos
+    - geos >=3.6.0
 
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-rcpp
-    - r-sf ==0.9_3
+    - r-sf >=0.9_3
     - r-units
+    - r-rgeos
+    - geos >=3.6.0
 
 test:
   commands:
