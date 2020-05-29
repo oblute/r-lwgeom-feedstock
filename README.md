@@ -178,4 +178,6 @@ Feedstock Maintainers
 
 * [@agcopenhaver](https://github.com/agcopenhaver/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
+* [@oblute](https://github.com/oblute/)
+* [@rluria14](https://github.com/rluria14/)
 
