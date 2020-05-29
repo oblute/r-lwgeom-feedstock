@@ -68,5 +68,7 @@ about:
   dev_url: https://github.com/r-spatial/lwgeom/
 extra:
   recipe-maintainers:
+    - oblute
+    - rluria14
     - agcopenhaver
     - conda-forge/r
