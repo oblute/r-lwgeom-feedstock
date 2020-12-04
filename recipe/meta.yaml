@@ -16,6 +16,8 @@ source:
 build:
   merge_build_host: True  # [win]
   number: 0
+  patches:
+    - liblwgeomh.patch
 
   rpaths:
     - lib/R/lib/

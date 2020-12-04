@@ -1,0 +1,19 @@
+diff --git a/src/liblwgeom/liblwgeom.h b/src/liblwgeom/liblwgeom.h
+index 19723ab..22db6b5 100644
+--- a/src/liblwgeom/liblwgeom.h
++++ b/src/liblwgeom/liblwgeom.h
+@@ -35,6 +35,9 @@
+ 
+ #include "../postgis_config.h"
+ 
++#define POSTGIS_PROJ_VERSION 1
++
++#if defined(POSTGIS_PROJ_VERSION)
+ #if POSTGIS_PROJ_VERSION < 60
+ #include "proj_api.h"
+ typedef struct PJ
+@@ -2476,4 +2479,3 @@ int * lwgeom_cluster_2d_kmeans(const LWGEOM **geoms, uint32_t ngeoms, uint32_t k
+ #include "lwinline.h"
+ 
+ #endif /* !defined _LIBLWGEOM_H  */
+-
