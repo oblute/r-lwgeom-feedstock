@@ -1,12 +1,12 @@
 diff --git a/src/liblwgeom/liblwgeom.h b/src/liblwgeom/liblwgeom.h
-index 19723ab..22db6b5 100644
+index 19723ab..c8225df 100644
 --- a/src/liblwgeom/liblwgeom.h
 +++ b/src/liblwgeom/liblwgeom.h
 @@ -35,6 +35,9 @@
  
  #include "../postgis_config.h"
  
-+#define POSTGIS_PROJ_VERSION 1
++#define POSTGIS_PROJ_VERSION 70
 +
 +#if defined(POSTGIS_PROJ_VERSION)
  #if POSTGIS_PROJ_VERSION < 60
