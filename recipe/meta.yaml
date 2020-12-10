@@ -43,7 +43,6 @@ requirements:
     - r-units
     - proj
     - r-proj4
-    - proj.4
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
@@ -52,7 +51,6 @@ requirements:
     - r-units
     - proj
     - r-proj4
-    - proj.4
 
 test:
   commands:
