@@ -41,14 +41,16 @@ requirements:
     - r-rcpp
     - r-sf >=0.9_3
     - r-units
-    - proj ==6.3.2
+    - proj
+    - r-proj4
   run:
     - r-base
     - {{ native }}gcc-libs         # [win]
     - r-rcpp
     - r-sf >=0.9_3
     - r-units
-    - proj ==6.3.2
+    - proj
+    - r-proj4
 
 test:
   commands:
